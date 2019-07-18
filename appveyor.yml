@@ -6,4 +6,6 @@ build: off
 test_script:
 - cmd: >-
     cd %APPVEYOR_BUILD_FOLDER%
+
     lein test
+
